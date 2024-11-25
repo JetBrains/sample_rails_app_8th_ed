@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.3.0"
 
-gem "rails",                      "7.1.0"
+gem "rails",                      "8.0.0"
 gem "image_processing",           "1.12.2"
 gem "active_storage_validations", "0.9.8"
 gem "bcrypt",                     "3.1.18"
@@ -16,12 +16,12 @@ gem "sprockets-rails",            "3.4.2"
 gem "importmap-rails",            "1.1.0"
 gem "turbo-rails",                "1.1.1"
 gem "stimulus-rails",             "1.0.4"
-gem "jbuilder",                   "2.11.5"
+gem "jbuilder"
 gem "puma"
 gem "bootsnap",                   "1.12.0", require: false
 
 group :development, :test do
-  gem "sqlite3", "1.4.2"
+  gem "sqlite3", "2.1.0"
 end
 
 group :development do
