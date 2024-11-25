@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.2"
+ruby "3.3.0"
 
-gem "rails",                      "7.0.4"
+gem "rails",                      "7.1.0"
 gem "image_processing",           "1.12.2"
 gem "active_storage_validations", "0.9.8"
 gem "bcrypt",                     "3.1.18"
@@ -17,12 +17,11 @@ gem "importmap-rails",            "1.1.0"
 gem "turbo-rails",                "1.1.1"
 gem "stimulus-rails",             "1.0.4"
 gem "jbuilder",                   "2.11.5"
-gem "puma",                       "5.6.4"
+gem "puma"
 gem "bootsnap",                   "1.12.0", require: false
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
-  gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
 
 group :development do
