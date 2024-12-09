@@ -17,8 +17,8 @@ is available jointly under the MIT License and the Beerware License. See
 To get started with the app, clone the repo and then install the needed gems. You can clone the repo as follows:
 
 ```
-$ git clone https://github.com/JetBrains/sample_rails_app_7th_ed 
-$ cd sample_rails_app_7th_ed/
+$ git clone https://github.com/Avrelina/sample_rails_app_8th_ed
+$ cd sample_rails_app_8th_ed/
 ```
 
 To install the gems, you will need the same versions of Ruby used to build the sample app, which you can find using the `cat` command as follows:
