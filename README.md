@@ -28,9 +28,9 @@ $ cat .ruby-version
 <Ruby version number>
 ```
 
-Once you configured `ruby`, install required gems using following command with `--without production` flag:
+Once you configured `ruby`, install required gems using following command:
 ```
-bundle install
+bundle config set without 'production
 ```
 
 If you run into any trouble, you can remove `Gemfile.lock` and rebundle at any time:
